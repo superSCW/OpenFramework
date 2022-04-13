@@ -15,7 +15,7 @@ spec.homepage              = 'https://github.com/superSCW/OpenFramework'
 spec.authors               = { 'superSCW' => '1016733717@qq.com' }
 spec.social_media_url      = 'https://www.jianshu.com/u/fd9922e50c1a'
 spec.ios.deployment_target = '10.0'
-spec.source                = { :git => 'https://github.com/superSCW/OpenFramework.git',:tag => spec.version  }
+spec.source                = { :git => 'https://github.com/superSCW/OpenFramework.git',:tag => spec.version.to_s  }
 spec.requires_arc = true
 spec.source_files = 'Git/**/*'
 spec.dependency "SSZipArchive"
