@@ -20,6 +20,5 @@ spec.requires_arc = true
 spec.source_files = 'Git/**/*'
 spec.dependency "SSZipArchive"
 spec.version      = "1.0"
-spec.xcodebuild = '--verbose'
 
 end
