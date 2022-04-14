@@ -20,6 +20,5 @@ spec.requires_arc = true
 spec.ios.vendored_frameworks = 'Framework/myFramework.framework
 spec.dependency "SSZipArchive"
 spec.version      = "1.0"
-spec.frameworks = 'UIKit', 'Foundation', 'CoreFoundation'
 
 end
