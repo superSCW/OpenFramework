@@ -6,18 +6,18 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
-spec.name                  = 'SCWFramework'
-spec.license               = { :type=>'MIT', :file=>'LICENSE'}
-spec.summary               = 'cocoapods测试'
-spec.description           = 'myFramework的描述'
-spec.homepage              = 'https://github.com/superSCW/OpenFramework'
-spec.authors               = { 'superSCW' => '1016733717@qq.com' }
-spec.social_media_url      = 'https://www.jianshu.com/u/fd9922e50c1a'
-spec.ios.deployment_target = '10.0'
-spec.source                = { :git => 'https://github.com/superSCW/OpenFramework.git',:brange => 'main',:tag => '1.1'  }
-spec.requires_arc = true
-spec.ios.vendored_frameworks = 'Framework/myFramework.framework
-spec.dependency "SSZipArchive"
-spec.version      = "1.1"
+Pod::Spec.new do |s|
+s.name                  = 'SCWFramework'
+s.license               = { :type=>'MIT', :file=>'LICENSE'}
+s.summary               = 'cocoapods测试'
+s.description           = 'myFramework的描述'
+s.homepage              = 'https://github.com/superSCW/OpenFramework'
+s.authors               = { 'superSCW' => '1016733717@qq.com' }
+s.social_media_url      = 'https://www.jianshu.com/u/fd9922e50c1a'
+s.ios.deployment_target = '10.0'
+s.source                = { :git => 'https://github.com/superSCW/OpenFramework.git',:brange => 'main',:tag => '1.1'  }
+s.requires_arc = true
+s.ios.vendored_frameworks = 'Framework/myFramework.framework
+s.dependency "SSZipArchive"
+s.version      = "1.1"
 end
