@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description           = 'myFramework的描述'
   s.homepage              = 'https://github.com/superSCW/OpenFramework'
   s.authors               = { 'superSCW' => '1016733717@qq.com' }
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
   s.source                = { :git => 'https://github.com/superSCW/OpenFramework.git',:brange => 'main',:tag => '1.1'  }
   s.requires_arc = true
   s.ios.vendored_frameworks = 'Framework/ScwToolwork.framework
