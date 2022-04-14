@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
 spec.name                  = 'myFramework'
-spec.license               = 'MIT'
+spec.license               = { :type=>'MIT', :file=>'LICENSE'}
 spec.summary               = 'cocoapods测试'
 spec.description           = 'myFramework的描述'
 spec.homepage              = 'https://github.com/superSCW/OpenFramework'
