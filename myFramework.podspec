@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'Framework/ScwToolwork.framework
   s.dependency "SSZipArchive"
   s.version      = "1.1"
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64'}
 end
