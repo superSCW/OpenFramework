@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.source                = { :git => 'https://github.com/superSCW/OpenFramework.git',:brange => 'main',:tag => '1.1'  }
   s.requires_arc = true
-  s.ios.vendored_frameworks = 'Framework/myFramework.framework
+  s.ios.vendored_frameworks = 'Framework/ScwToolwork.framework
   s.dependency "SSZipArchive"
   s.version      = "1.1"
 end
