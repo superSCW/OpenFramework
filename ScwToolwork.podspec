@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/superSCW/OpenFramework.git", :branch => "main",  :tag => "#{spec.version}" }
 
 
-  spec.ios.vendored_frameworks = 'Framework/ScwToolwork.framework'
+  spec.vendored_frameworks = 'Framework/ScwToolwork.framework'
 
   spec.requires_arc = true
 
