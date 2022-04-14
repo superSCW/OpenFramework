@@ -1,0 +1,6 @@
+framework module ScwToolwork {
+  umbrella header "ScwToolwork.h"
+
+  export *
+  module * { export * }
+}

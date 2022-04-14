@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "myFramework"
+  spec.name         = "ScwToolwork"
   spec.version      = "1.1"
-  spec.summary      = "myFramework的标题"
+  spec.summary      = "ScwToolwork的标题"
 
   spec.description  = "这是我的测试库,描述之后很长"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/superSCW/OpenFramework.git", :branch => "main",  :tag => "#{spec.version}" }
 
 
-  spec.ios.vendored_frameworks = 'Framework/myFramework.framework'
+  spec.ios.vendored_frameworks = 'Framework/ScwToolwork.framework'
 
   spec.requires_arc = true
 
