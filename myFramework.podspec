@@ -17,7 +17,7 @@ spec.social_media_url      = 'https://www.jianshu.com/u/fd9922e50c1a'
 spec.ios.deployment_target = '10.0'
 spec.source                = { :git => 'https://github.com/superSCW/OpenFramework.git',:brange => 'main',:tag => '1.0'  }
 spec.requires_arc = true
-spec.source_files = 'Git/**/*'
+spec.ios.vendored_frameworks = 'Framework/myFramework.framework
 spec.dependency "SSZipArchive"
 spec.version      = "1.0"
 spec.frameworks = 'UIKit', 'Foundation', 'CoreFoundation'
