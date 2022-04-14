@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ScwToolwork"
   spec.version      = "1.0"
-  spec.summary      = "ScwToolwork"
+  spec.summary      = "ScwToolwork的标题"
 
   spec.description  = "这是我的测试库,描述之后很长"
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = "12.0"
 
-  spec.source       = { :git => "https://github.com/superSCW/OpenFramework.git", :brange => 'main', :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/superSCW/OpenFramework.git",  :tag => "#{spec.version}" }
 
 
   spec.ios.vendored_frameworks = 'Framework/ScwToolwork.framework'
