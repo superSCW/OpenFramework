@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = "12.0"
 
-  spec.source       = { :git => "https://github.com/superSCW/OpenFramework.git",  :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/superSCW/OpenFramework.git", :branch => "main",  :tag => "#{spec.version}" }
 
 
   spec.ios.vendored_frameworks = 'Framework/myFramework.framework'
