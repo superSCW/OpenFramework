@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.ios.vendored_frameworks = 'Framework/ScwToolwork.framework
+  spec.ios.vendored_frameworks = 'Framework/ScwToolwork.framework'
 
   # spec.public_header_files = "Classes/**/*.h"
 
