@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "ScwToolwork"
+  spec.name         = "myFramework"
   spec.version      = "1.1"
-  spec.summary      = "ScwToolwork的标题"
+  spec.summary      = "myFramework的标题"
 
   spec.description  = "这是我的测试库,描述之后很长"
 
