@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |spec|
-spec.name                  = 'myFramework'
+spec.name                  = 'SCWFramework'
 spec.license               = { :type=>'MIT', :file=>'LICENSE'}
 spec.summary               = 'cocoapods测试'
 spec.description           = 'myFramework的描述'
