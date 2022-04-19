@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '12.0'
+
+target 'FrameworkDemo' do
+
+#pod 'ScwToolwork', '~> 1.1'
+pod 'ScwToolwork', :path => '/Users/lishuguang915163.com/Desktop/scw'
+end
